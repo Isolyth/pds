@@ -3,8 +3,8 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-PDS_ENV_FILE=${PDS_ENV_FILE:-"/mnt/ATPDS/pds.env"}
-source "${PDS_ENV_FILE}"
+
+source "/mnt/ATPDS/pds.env"
 
 curl \
   --fail \
