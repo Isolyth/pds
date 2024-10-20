@@ -4,7 +4,7 @@ set -o nounset
 set -o pipefail
 
 
-source "/mnt/ATPDS/pds.env"
+source "/pds/pds.env"
 
 curl \
   --fail \
